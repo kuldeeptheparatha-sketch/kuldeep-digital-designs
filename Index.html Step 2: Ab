@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuldeep Digital Designs</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Arial,sans-serif;
+  background:#f5f7fb;color:#172033;
+  line-height:1.6
+}
+header{
+  background:#101a32;color:white;
+  padding:20px 7%;
+  display:flex;justify-content:space-between;
+  align-items:center;flex-wrap:wrap;gap:10px
+}
+.logo{font-size:20px;font-weight:bold}
+nav a{
+  color:white;text-decoration:none;
+  margin-left:14px;font-size:13px
+}
+.hero{
+  background:linear-gradient(135deg,#101a32,#2455a4);
+  color:white;text-align:center;padding:85px 20px
+}
+.hero h1{font-size:38px;margin-bottom:12px}
+.hero p{max-width:550px;margin:auto;color:#dce6ff}
+.btn{
+  display:inline-block;margin-top:22px;
+  padding:12px 24px;border-radius:7px;
+  background:#4d8cff;color:white;
+  text-decoration:none;font-weight:bold
+}
+section{padding:55px 7%;text-align:center}
+section h2{font-size:28px;margin-bottom:12px}
+.sub{color:#68748a;margin-bottom:30px}
+.about{
+  max-width:700px;margin:auto;
+  color:#596579
+}
+.services,.projects,.prices{
+  display:grid;grid-template-columns:repeat(2,1fr);
+  gap:17px;max-width:850px;margin:auto
+}
+.card{
+  background:white;padding:23px;
+  border-radius:12px;text-align:left;
+  box-shadow:0 4px 18px #1720330c
+}
+.card h3{margin:8px 0}
+.card p{font-size:14px;color:#68748a}
+.art{
+  height:125px;border-radius:9px;
+  display:flex;align-items:center;
+  justify-content:center;text-align:center;
+  color:white;font-size:21px;font-weight:bold;
+  background:linear-gradient(135deg,#172b55,#4389ed)
+}
+.art.two{background:linear-gradient(135deg,#55275f,#e27a9b)}
+.art.three{background:linear-gradient(135deg,#174c49,#49a88b)}
+.art.four{background:linear-gradient(135deg,#79451c,#e4a34b)}
+.price{font-size:25px;color:#2455a4;font-weight:bold}
+#contact{background:#101a32;color:white}
+#contact p{color:#dce6ff}
+footer{
+  background:#0b1223;color:#aab5ca;
+  text-align:center;padding:18px;font-size:13px
+}
+@media(max-width:600px){
+  header{justify-content:center}
+  nav{text-align:center}
+  nav a{margin:0 6px;font-size:12px}
+  .hero h1{font-size:30px}
+  .services,.projects,.prices{grid-template-columns:1fr}
+  section{padding:42px 6%}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">KD Designs.</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>Kuldeep Digital Designs</h1>
+  <p>Creative Designs. Smart Ideas. Digital Growth.
+  I create posters, thumbnails, videos and simple websites
+  for individuals and small businesses.</p>
+  <a class="btn" href="#work">View My Work</a>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p class="about">
+    Hello! I am Kuldeep, a beginner digital designer and
+    website creator. I enjoy creating attractive designs
+    and helping small businesses build their online presence.
+    I focus on simple, creative and professional work.
+  </p>
+</section>
+
+<section id="services">
+  <h2>My Services</h2>
+  <p class="sub">Affordable digital services for your needs.</p>
+  <div class="services">
+    <div class="card">
+      <h3>🎨 Poster Designing</h3>
+      <p>Promotional posters, festival designs and social media posts.</p>
+    </div>
+    <div class="card">
+      <h3>▶ YouTube Thumbnails</h3>
+      <p>Attractive thumbnails for YouTube videos.</p>
+    </div>
+    <div class="card">
+      <h3>🎬 Video Editing</h3>
+      <p>Basic reels, short videos, captions and transitions.</p>
+    </div>
+    <div class="card">
+      <h3>💻 Website Designing</h3>
+      <p>Simple one-page websites for shops and small businesses.</p>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <h2>My Portfolio</h2>
+  <p class="sub">Some design concepts and practice projects.</p>
+  <div class="projects">
+    <div class="card">
+      <div class="art">FOOD FEST<br>Special Offer</div>
+      <h3>Food Poster</h3>
+      <p>Promotional poster concept.</p>
+    </div>
+    <div class="card">
+      <div class="art two">NEW VIDEO<br>WATCH NOW</div>
+      <h3>YouTube Thumbnail</h3>
+      <p>Video thumbnail concept.</p>
+    </div>
+    <div class="card">
+      <div class="art three">ROYAL<br>BARBER SHOP</div>
+      <h3>Business Design</h3>
+      <p>Local business promotion concept.</p>
+    </div>
+    <div class="card">
+      <div class="art four">YOUR BRAND<br>YOUR WEBSITE</div>
+      <h3>Website Concept</h3>
+      <p>Simple business website concept.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <h2>Starting Prices</h2>
+  <p class="sub">Simple and affordable packages.</p>
+  <div class="prices">
+    <div class="card">
+      <h3>Poster Design</h3>
+      <div class="price">₹149</div>
+      <p>One basic poster design.</p>
+    </div>
+    <div class="card">
+      <h3>Thumbnail</h3>
+      <div class="price">₹149</div>
+      <p>One YouTube thumbnail.</p>
+    </div>
+    <div class="card">
+      <h3>Reel Editing</h3>
+      <div class="price">₹199</div>
+      <p>Basic short video editing.</p>
+    </div>
+    <div class="card">
+      <h3>One-page Website</h3>
+      <div class="price">₹799</div>
+      <p>Basic one-page website.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Let's Work Together!</h2>
+  <p>Have a project in mind? Contact me to discuss it.</p>
+  <a class="btn"
+  href="https://wa.me/91XXXXXXXXXX"
+  target="_blank">Contact on WhatsApp</a>
+</section>
+
+<footer>
+  © 2026 Kuldeep Digital Designs. All Rights Reserved.
+</footer>
+
+</body>
+</html>
